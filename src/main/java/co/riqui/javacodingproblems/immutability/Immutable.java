@@ -1,4 +1,4 @@
-package co.riqui.javacodingproblems.objects;
+package co.riqui.javacodingproblems.immutability;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -6,7 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 
 import java.util.Objects;
 
-import static co.riqui.javacodingproblems.objects.ImmutableUser.getBuilder;
+import static co.riqui.javacodingproblems.immutability.ImmutableUser.getBuilder;
 
 /**
  * @author ricardoquiroga on 16-05-22
@@ -14,7 +14,7 @@ import static co.riqui.javacodingproblems.objects.ImmutableUser.getBuilder;
 @Slf4j
 public class Immutable {
 //    Los tipos primitivos son inmutables.
-//    La famosa clase de Java Stringes inmutable (otras clases también son inmutables, por ejemplo Pattern, y LocalDate)
+//    La famosa clase de Java String es inmutable (otras clases también son inmutables, por ejemplo Pattern, y LocalDate)
 //    Los arreglos no son inmutables.
 //    Las colecciones pueden ser mutables, no modificables o inmutables.
 

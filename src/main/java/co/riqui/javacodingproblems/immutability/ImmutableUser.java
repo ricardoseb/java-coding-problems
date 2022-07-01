@@ -1,4 +1,4 @@
-package co.riqui.javacodingproblems.objects;
+package co.riqui.javacodingproblems.immutability;
 
 import lombok.Getter;
 import lombok.ToString;
