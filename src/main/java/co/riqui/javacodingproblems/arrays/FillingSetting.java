@@ -19,7 +19,7 @@ public class FillingSetting {
 
         for (int i = 1; i < arr.length; i++) {
             arr[i] = arr[i - 1] + 1;
-            System.out.println("i = " + arr[i]);
+            System.out.println("i = " + i);
         }
 
         System.out.println(" ===JDK8=== ");
